@@ -7,14 +7,17 @@
 //
 
 import UIKit
-
+import MapKit
+import CoreLocation
 class secondViewController: UIViewController {
-
+    
+    @IBOutlet weak var mapView: MKMapView!
+    let initialLocation = CLLocation(latitude: 21.279401, longitude: -157.828794)
+    let regionRadius: CLLocationDistance = 1000
     @IBOutlet weak var secondTabLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    secondTabLabel.text = "Maps"
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,7 +25,8 @@ class secondViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    func centerMapOnLocation(location: CLLocation){ let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate, regionRadius, regionRadius)
+        mapView.setRegion(coordinateRegion, animated: true)
     /*
     // MARK: - Navigation
 
@@ -33,4 +37,5 @@ class secondViewController: UIViewController {
     }
     */
 
+}
 }
