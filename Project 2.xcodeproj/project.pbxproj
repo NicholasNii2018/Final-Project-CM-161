@@ -14,6 +14,7 @@
 		7FA6481A2072DC0A00A7846B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FA648182072DC0A00A7846B /* LaunchScreen.storyboard */; };
 		7FA648242072EC6F00A7846B /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA648232072EC6F00A7846B /* secondViewController.swift */; };
 		7FD3F9D42097B0670086D8EA /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD3F9D32097B0670086D8EA /* Restaurant.swift */; };
+		7FD3F9D62097BE240086D8EA /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FD3F9D52097BE240086D8EA /* Property List.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7FA6481B2072DC0A00A7846B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FA648232072EC6F00A7846B /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 		7FD3F9D32097B0670086D8EA /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		7FD3F9D52097BE240086D8EA /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				7FA648132072DC0A00A7846B /* Main.storyboard */,
 				7FD3F9D32097B0670086D8EA /* Restaurant.swift */,
 				7FA648232072EC6F00A7846B /* secondViewController.swift */,
+				7FD3F9D52097BE240086D8EA /* Property List.plist */,
 				7FA648162072DC0A00A7846B /* Assets.xcassets */,
 				7FA648182072DC0A00A7846B /* LaunchScreen.storyboard */,
 				7FA6481B2072DC0A00A7846B /* Info.plist */,
@@ -131,6 +134,7 @@
 			files = (
 				7FA6481A2072DC0A00A7846B /* LaunchScreen.storyboard in Resources */,
 				7FA648172072DC0A00A7846B /* Assets.xcassets in Resources */,
+				7FD3F9D62097BE240086D8EA /* Property List.plist in Resources */,
 				7FA648152072DC0A00A7846B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
