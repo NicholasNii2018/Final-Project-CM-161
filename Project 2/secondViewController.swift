@@ -18,6 +18,19 @@ class secondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+    centerMapOnLocation(location: initialLocation)
+    let restaurantOne = Restaurant(title: "BLT Steak", type: "American", coordinate: CLLocationCoordinate2D(latitude: 21.279239, longitude: -157.832329))
+        mapView.addAnnotation(restaurantOne)
+    let restaurantTwo = Restaurant(title: "Marukame Udon", type: "Japanese", coordinate: CLLocationCoordinate2D(latitude: 21.279517, longitude: -157.825985))
+        mapView.addAnnotation(restaurantTwo)
+    let restaurantThree = Restaurant(title: "California Pizza Kitchen", type: "Pizza", coordinate: CLLocationCoordinate2D(latitude: 21.278482, longitude: -157.827793))
+        mapView.addAnnotation(restaurantThree)
+    let restaurantFour = Restaurant(title: "The Cheesecake Factory", type: "American", coordinate: CLLocationCoordinate2D(latitude: 21.277557, longitude: -157.827856))
+        mapView.addAnnotation(restaurantFour)
+    let restaurantFive = Restaurant(title: "Roy's", type: "Hawaiian fusion", coordinate: CLLocationCoordinate2D(latitude: 21.278584, longitude: -157.831736))
+        mapView.addAnnotation(restaurantFive)
+    let restaurantSix = Restaurant(title: "Wolfgang's Steakhouse", type: "Steak House", coordinate: CLLocationCoordinate2D(latitude: 21.278303, longitude: -157.828441))
+        mapView.addAnnotation(restaurantSix)
     }
 
     override func didReceiveMemoryWarning() {

@@ -13,6 +13,7 @@
 		7FA648172072DC0A00A7846B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA648162072DC0A00A7846B /* Assets.xcassets */; };
 		7FA6481A2072DC0A00A7846B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FA648182072DC0A00A7846B /* LaunchScreen.storyboard */; };
 		7FA648242072EC6F00A7846B /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA648232072EC6F00A7846B /* secondViewController.swift */; };
+		7FD3F9D42097B0670086D8EA /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD3F9D32097B0670086D8EA /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7FA648192072DC0A00A7846B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FA6481B2072DC0A00A7846B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FA648232072EC6F00A7846B /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		7FD3F9D32097B0670086D8EA /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				7FA6480F2072DC0A00A7846B /* AppDelegate.swift */,
 				7FA648112072DC0A00A7846B /* ViewController.swift */,
 				7FA648132072DC0A00A7846B /* Main.storyboard */,
+				7FD3F9D32097B0670086D8EA /* Restaurant.swift */,
 				7FA648232072EC6F00A7846B /* secondViewController.swift */,
 				7FA648162072DC0A00A7846B /* Assets.xcassets */,
 				7FA648182072DC0A00A7846B /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD3F9D42097B0670086D8EA /* Restaurant.swift in Sources */,
 				7FA648122072DC0A00A7846B /* ViewController.swift in Sources */,
 				7FA648242072EC6F00A7846B /* secondViewController.swift in Sources */,
 				7FA648102072DC0A00A7846B /* AppDelegate.swift in Sources */,
