@@ -57,12 +57,19 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="OrX-RI-VGV" id="RQa-jr-9dV"/>
+                                    <outlet property="delegate" destination="OrX-RI-VGV" id="sHe-Of-nLI"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="utx-t4-bKn"/>
                     </view>
                     <navigationItem key="navigationItem" id="8gO-hA-Qeh"/>
+                    <connections>
+                        <outlet property="tableView" destination="2sc-as-xsU" id="SZq-OZ-Wuk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1E8-7K-Iei" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
