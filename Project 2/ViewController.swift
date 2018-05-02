@@ -12,10 +12,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     var myFavoriteRestaurants = ["BLT Steak","Marukame Udon","California Pizza Kitchen","The Cheesecake Factory","Roy's","Wolfgang's Steakhouse"]
     @IBOutlet weak var firstTabLabel: UILabel!
     @IBOutlet weak var tableView: UITableView!
+    var restaurantImageData = [String]()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     self.tableView.dataSource = self
+        let path = Bundle.main.path(forResource: "Property List", ofType: "plist")
+        let dict = NSDictionary(contentsOfFile: path!)
+    restaurantImageData = dict!.object(forKey: "restaurantImages") as! [String]
     }
 
     override func didReceiveMemoryWarning() {
@@ -34,6 +38,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         cell.textLabel?.text = text
         return cell
     }
-
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath as IndexPath, animated: true)
+    }
 }
 

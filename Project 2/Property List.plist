@@ -4,7 +4,12 @@
 <dict>
 	<key>restaurantImages</key>
 	<array>
-		<string>bltSteak</string>
+		<string>bltSteaks</string>
+		<string>marukameUdon</string>
+		<string>cPK</string>
+		<string>cheesecakeFactory</string>
+		<string>roysWaikiki</string>
+		<string>wolfgangsSteakhouse</string>
 	</array>
 </dict>
 </plist>
